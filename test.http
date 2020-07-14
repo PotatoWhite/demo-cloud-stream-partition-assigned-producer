@@ -1,0 +1,8 @@
+## partitionkey를 기준으로 assign 된다.
+POST localhost:8080/sample
+Content-Type: application/json
+
+{
+  "data" : "1",
+  "partitionKey" : 13
+}
